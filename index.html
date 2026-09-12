@@ -1,0 +1,42 @@
+<!doctype html>
+<html lang="sk">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="description" content="NEOTRAVUJ 2.0 – generátor vtipných odpovedí.">
+  <title>NEOTRAVUJ 2.0</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <main class="app">
+    <div class="badge">NEOTRAVUJ 2.0</div>
+    <h1>🚫 NEOTRAVUJ!</h1>
+    <p class="subtitle">Keď potrebuješ odpoveď na všetko… okrem otravovania.</p>
+
+    <section class="card">
+      <div id="answer" class="answer">Stlač tlačidlo a zisti, čo ti NEOTRAVUJ 2.0 odpovie.</div>
+      <div class="buttons">
+        <button id="mainBtn" class="primary">🚫 NEOTRAVUJ!</button>
+        <button id="randomBtn" class="secondary">🎲 Náhodná odpoveď</button>
+      </div>
+      <button id="copyBtn" class="copy">📋 Skopírovať odpoveď</button>
+      <div id="copied" class="copied" aria-live="polite"></div>
+    </section>
+
+    <section class="stats">
+      <div><strong id="count">0</strong><span>použití</span></div>
+      <div><strong>50+</strong><span>odpovedí</span></div>
+      <div><strong>2.0</strong><span>verzia</span></div>
+    </section>
+
+    <details class="about">
+      <summary>ℹ️ O NEOTRAVUJ 2.0</summary>
+      <p>Vtipný generátor odpovedí pre chvíle, keď chceš jednoducho povedať: „Teraz nie.“</p>
+      <p class="small">Funguje lokálne v prehliadači – bez registrácie a bez servera.</p>
+    </details>
+
+    <footer>NEOTRAVUJ 2.0 • prvá webová verzia</footer>
+  </main>
+  <script src="script.js"></script>
+</body>
+</html>
